@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "lowdb is awesome",
+      "views": 100
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "serial": "123457",
+      "location": [
+        {
+          "lat": "",
+          "long": ""
+        }
+      ],
+      "hits": 1,
+      "type": 5
+    }
+  ]
+}
