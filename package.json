@@ -1,17 +1,17 @@
 {
-  "name": "wheresmymoney",
-  "version": "1.0.0",
-  "description": "A Euro note tracking project",
-  "main": "index.js",
+  "name": "nuxt-app",
+  "private": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "author": "Steve Martin",
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "lowdb": "^7.0.1"
+    "lowdb": "^7.0.1",
+    "nuxt": "^3.12.3",
+    "vue": "latest"
   }
 }
