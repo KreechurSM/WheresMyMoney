@@ -1,8 +1,10 @@
 <template>
   <div>
     <v-btn variant="flat" @click="getLocation">Get Current Location</v-btn>
-    <span v-if="location?.latitude">Latitude: {{ location?.latitude }}</span>
-    <span v-if="location?.longitude"> Longitude: {{ location?.longitude }}</span>
+    <div>
+      <span v-if="location?.latitude">Latitude: {{ location?.latitude }}</span>
+      <span v-if="location?.longitude"> Longitude: {{ location?.longitude }}</span>
+    </div>
   </div>
   <v-snackbar v-model="showSnackbar" :color="snackbarColor" :timeout="2000">
     <span>{{ snackbarMessage }}</span>
