@@ -30,7 +30,6 @@ const serialNumber = ref('');
 
 const SearchNoteSerial = async () => {
   // Check if the note exists or not
-  console.dir(serialNumber.value)
   const response = await noteStore.checkNoteSerial(serialNumber.value);
   console.dir(response.value);
 }
