@@ -1,5 +1,5 @@
 <template>
-  <section id="Landing" class="d-flex w-100">
+  <section id="Landing" class="d-flex w-100 flex-column">
     <v-container>
       <div class="d-flex w-100 justify-center my-4"><span class="text-h4 text-center">Find out where your euro notes
           have
@@ -16,6 +16,8 @@
         </template>
       </v-text-field>
     </v-container>
+
+    <faq-section></faq-section>
   </section>
 </template>
 

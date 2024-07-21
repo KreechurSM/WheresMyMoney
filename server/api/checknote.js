@@ -21,3 +21,8 @@ export default defineEventHandler(async (event) => {
     });
   }
 });
+
+// if get serial from body
+// does serial exist in DB
+//  Yes = Update count, Add new location.
+//  No = Add new record, count 0 and location
