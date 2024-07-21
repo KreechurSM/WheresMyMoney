@@ -1,5 +1,5 @@
 <template>
-  <VApp :theme="isDark ? 'dark' : 'light'">
+  <VApp theme="dark">
     <v-layout class="rounded rounded-md">
       <NavHeader></NavHeader>
 

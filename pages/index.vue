@@ -1,6 +1,6 @@
 <template>
   <section id="Landing" class="d-flex w-100 flex-column">
-    <section id="hero" class="d-flex w-100 align-center" style="background: #fafafa; height: 75vh">
+    <section id="hero" class="d-flex w-100 align-center" style="background: #1f1f1f; height: 75vh">
       <HeroSection></HeroSection>
     </section>
     <v-container>
