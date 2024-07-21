@@ -6,7 +6,7 @@
           Money</span></NuxtLink>
     </v-app-bar-title>
     <template v-slot:append>
-      <v-btn icon="mdi-theme-light-dark" variant="text" color="primary" @click="() => toggleTheme"></v-btn>
+      <v-btn icon="mdi-theme-light-dark" variant="text" color="primary" @click="() => toggleTheme()"></v-btn>
     </template>
   </v-app-bar>
 </template>
@@ -22,6 +22,7 @@ const theme = useCustomTheme();
 
 const toggleTheme = () => {
   theme.toggle();
+  console.dir(`Toggle Theem`)
 }
 
 onMounted(() => {
