@@ -13,6 +13,10 @@ async function initializeDb() {
   await db.write();
 }
 
-await initializeDb();
+const asyncHandler = async () {
+  await initializeDb();
+}
+
+asyncHandler();
 
 export default db;

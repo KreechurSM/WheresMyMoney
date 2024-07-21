@@ -5,7 +5,6 @@
         been</span>
     </div>
     <ClientOnly>
-
       <v-text-field clearable label="Enter the euro note serial" placeholder="Serial Number" color="primary"
         variant="solo" v-model="serialNumber">
         <template v-slot:prepend>
