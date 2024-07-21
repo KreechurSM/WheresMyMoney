@@ -6,6 +6,7 @@ export default defineEventHandler(async (event) => {
   const serial = query.serial;
   if (serial) {
     console.log(`Serial: ${serial}`);
+    console.dir(serial);
     const post = { id: 1, title: "lowdb is awesome", views: 100 };
 
     // In two steps
