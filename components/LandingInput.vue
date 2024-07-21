@@ -1,8 +1,9 @@
 <template>
   <v-container>
-    <div class="d-flex w-100 justify-center my-4"><span class="text-h4 text-center">Find out where your euro notes
-        have
-        been</span>
+    <div class="d-flex w-100 justify-center my-4">
+      <span class="text-h4 text-center">
+        Find out where your euro notes have been!
+      </span>
     </div>
     <ClientOnly>
       <v-text-field clearable label="Enter the euro note serial" placeholder="Serial Number" color="primary"

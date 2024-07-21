@@ -13,9 +13,9 @@ async function initializeDb() {
   await db.write();
 }
 
-const asyncHandler = async () {
+const asyncHandler = async () => {
   await initializeDb();
-}
+};
 
 asyncHandler();
 
