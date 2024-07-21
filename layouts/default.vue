@@ -1,5 +1,5 @@
 <template>
-  <template>
+  <VApp :theme="isDark ? 'dark' : 'light'">
     <v-layout class="rounded rounded-md">
       <NavHeader></NavHeader>
 
@@ -9,9 +9,13 @@
 
       <!-- <AppFooter /> -->
     </v-layout>
-  </template>
+  </VApp>
 </template>
 
 <script setup>
+import { useCustomTheme } from '~/composables/useCustomTheme.js'
 
+const { isDark } = useCustomTheme();
+
+console.dir(`isDark: ${isDark.value}`)
 </script>

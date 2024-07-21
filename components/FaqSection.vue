@@ -11,9 +11,11 @@
           </p>
         </div>
       </div>
-      <v-expansion-panels variant="accordion">
-        <v-expansion-panel v-for="i in faqItems" :key="i" :text="i.text" :title="i.title"></v-expansion-panel>
-      </v-expansion-panels>
+      <ClientOnly>
+        <v-expansion-panels variant="accordion">
+          <v-expansion-panel v-for="i in faqItems" :key="i" :text="i.text" :title="i.title"></v-expansion-panel>
+        </v-expansion-panels>
+      </ClientOnly>
     </v-container>
   </section>
 </template>
