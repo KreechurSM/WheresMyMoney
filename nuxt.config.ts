@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["vuetify-nuxt-module", "@pinia/nuxt", "@vueuse/nuxt"],
+  modules: ["vuetify-nuxt-module", "@pinia/nuxt", "@vueuse/nuxt", "@nuxtjs/leaflet"],
   vuetify: {
     moduleOptions: {
       defaultTheme: "dark",
