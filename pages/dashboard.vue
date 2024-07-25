@@ -15,7 +15,7 @@
     <v-row cols="12">
       <v-col>
         <span>Top Countries</span>
-        <v-table class="mx-4">
+        <v-table class="mx-4" density="compact">
           <thead>
             <tr>
               <th class="text-left">
@@ -36,7 +36,7 @@
       </v-col>
       <v-col>
         <span>Recent Recordings</span>
-        <v-table class="mx-4">
+        <v-table class="mx-4" density="compact">
           <thead>
             <tr>
               <th class="text-left">

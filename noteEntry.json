@@ -1,0 +1,21 @@
+{
+  "notes": [
+    {
+      "uuid": "guid",
+      "serial": "note serial",
+      "value": 20,
+      "recordings": [
+        {
+          "user": "unknown",
+          "lat": 53,
+          "long": 8
+        },
+        {
+          "user": "unknown",
+          "lat": 52.8,
+          "long": 8.1
+        }
+      ]
+    }
+  ]
+}
