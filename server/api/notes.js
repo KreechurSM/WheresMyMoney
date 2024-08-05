@@ -1,5 +1,5 @@
 // server/api/note.js
-import db from "@/utils/db.js";
+// import db from "@/utils/db.js";
 
 export default defineEventHandler(async (event) => {
   if (event.req.method === "POST") {

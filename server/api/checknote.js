@@ -1,13 +1,20 @@
 // server/api/checknote.js
-import db from "@/utils/db.js";
+import { initializeDb } from "@/utils/db.js";
+import { recordExists } from "~/utils/dbUtils";
 // curl "http://localhost:3000/api/checknote?serial=12345"
 export default defineEventHandler(async (event) => {
   const query = getQuery(event);
   const serial = query.serial;
+
+  const db = await initializeDb();
+
   if (serial) {
     console.log(`Serial: ${serial}`);
     console.dir(serial);
     const post = { id: 1, title: "lowdb is awesome", views: 100 };
+
+    const _ex = await recordExists(db, "1234");
+    console.log(_ex);
 
     // In two steps
     db.data.posts.push(post);

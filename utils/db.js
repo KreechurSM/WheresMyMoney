@@ -11,6 +11,8 @@ async function initializeDb() {
   await db.read();
   db.data ||= { notes: [] };
   await db.write();
+
+  return db;
 }
 
 const asyncHandler = async () => {
@@ -19,4 +21,4 @@ const asyncHandler = async () => {
 
 asyncHandler();
 
-export default db;
+export { initializeDb };

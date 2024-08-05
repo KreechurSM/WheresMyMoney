@@ -59,20 +59,30 @@
       "id": 1,
       "title": "lowdb is awesome",
       "views": 100
+    },
+    {
+      "id": 1,
+      "title": "lowdb is awesome",
+      "views": 100
     }
   ],
   "notes": [
     {
-      "id": 1,
-      "serial": "123457",
-      "location": [
+      "uuid": "guid",
+      "serial": "1234",
+      "value": 20,
+      "recordings": [
         {
-          "lat": "",
-          "long": ""
+          "user": "unknown",
+          "lat": 53,
+          "long": 8
+        },
+        {
+          "user": "unknown",
+          "lat": 52.8,
+          "long": 8.1
         }
-      ],
-      "hits": 1,
-      "type": 5
+      ]
     }
   ]
 }
